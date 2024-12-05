@@ -1,0 +1,36 @@
+[
+    {
+        "name": "new d updated 2",
+        "endpoints": [
+            "MQTT"
+        ],
+        "availableResources": [
+            "SO2",
+            "O2"
+        ],
+        "deviceID": "47f46086-2ac6-4510-8522-b70f73036a25",
+        "insert-timestamp": "2024-12-05T14:51:41.439976+00:00"
+    },
+    {
+        "name": "new d updated",
+        "endpoints": [
+            "MQTT"
+        ],
+        "availableResources": [
+            "SO2",
+            "O2"
+        ]
+    },
+    {
+        "name": "new d",
+        "endpoints": [
+            "MQTT"
+        ],
+        "availableResources": [
+            "SO2",
+            "O2"
+        ],
+        "deviceID": "60743500-729a-4aee-a920-f0b604bc7898",
+        "insert-timestamp": "2024-12-05T14:42:39.577312"
+    }
+]
