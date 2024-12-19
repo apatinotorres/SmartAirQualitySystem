@@ -12,9 +12,11 @@ Implementations:
 video promo:
 - script: Thomas
 - video:
+
 video demo:
 - script
 - video:
+
 docker containers for:
 - telegram bot
 - time series db adaptor
