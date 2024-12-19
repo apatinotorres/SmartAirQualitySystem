@@ -2,7 +2,7 @@ Implementations:
 - Telegram Bot, Processing Microservice: Julia (temptative)
 - Sensors, sensor spawner: Antonio Patino
 - Room catalog: Antoine
-- Message Broker:
+- Message Broker: Antoine
 - Air control: Antonio Patino
 - Led manager: Thomas
 - Weather API: Julia (temptative)
