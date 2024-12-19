@@ -68,8 +68,8 @@ def mqtt_thread():
 # Main Script
 if __name__ == "__main__":
     # Start MQTT thread
-    mqtt_thread_instance = threading.Thread(target=mqtt_thread, daemon=True)
-    mqtt_thread_instance.start()
+    #mqtt_thread_instance = threading.Thread(target=mqtt_thread, daemon=True)
+    #mqtt_thread_instance.start()
 
     # Configure and start CherryPy server
     cherrypy.config.update({

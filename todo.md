@@ -1,3 +1,20 @@
+Implementations:
+- Telegram Bot, Processing Microservice: Julia (temptative)
+- Sensors, sensor spawner: Antonio Patino
+- Room catalog: Antoine
+- Message Broker:
+- Air control: Antonio Patino
+- Led manager: Thomas
+- Weather API: Julia (temptative)
+- Time series DB adaptor: Antoine
+- Time series Database: Antoine
+
+video promo:
+- script: Thomas
+- video:
+video demo:
+- script
+- video:
 docker containers for:
 - telegram bot
 - time series db adaptor
@@ -6,6 +23,7 @@ docker containers for:
 - led manager
 - room catalog
 - message broker if we create a private one
+- procesing microservice
 
 
 for the sensors:
