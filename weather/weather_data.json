@@ -1,0 +1,192 @@
+[
+    {
+        "building_name": "Aule_I",
+        "coordinates": {
+            "latitude": 45.060001373291016,
+            "longitude": 7.659999370574951
+        },
+        "elevation": 252.0,
+        "timezone": {
+            "name": null,
+            "abbreviation": null,
+            "utc_offset_seconds": 0
+        },
+        "current_weather": {
+            "time": 1734858900,
+            "temperature_2m": -0.75,
+            "precipitation": 0.0,
+            "wind_speed_10m": 1.1384198665618896,
+            "wind_direction_10m": 108.43504333496094
+        },
+        "hourly_weather": [
+            {
+                "time": "2024-12-22 00:00:00+00:00",
+                "temperature_2m": -1.0369999408721924,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 2.1600000858306885,
+                "wind_direction_10m": 180.0
+            },
+            {
+                "time": "2024-12-22 01:00:00+00:00",
+                "temperature_2m": -0.4869999885559082,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 1.2979984283447266,
+                "wind_direction_10m": 56.309913635253906
+            },
+            {
+                "time": "2024-12-22 02:00:00+00:00",
+                "temperature_2m": -1.1369999647140503,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 2.1897945404052734,
+                "wind_direction_10m": 189.46224975585938
+            },
+            {
+                "time": "2024-12-22 03:00:00+00:00",
+                "temperature_2m": -1.8370000123977661,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 4.379589080810547,
+                "wind_direction_10m": 189.46224975585938
+            },
+            {
+                "time": "2024-12-22 04:00:00+00:00",
+                "temperature_2m": -1.7869999408721924,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 4.896529674530029,
+                "wind_direction_10m": 216.0274658203125
+            },
+            {
+                "time": "2024-12-22 05:00:00+00:00",
+                "temperature_2m": -1.5870000123977661,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 3.7064266204833984,
+                "wind_direction_10m": 240.9454803466797
+            },
+            {
+                "time": "2024-12-22 06:00:00+00:00",
+                "temperature_2m": -1.187000036239624,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 4.104631423950195,
+                "wind_direction_10m": 15.255176544189453
+            },
+            {
+                "time": "2024-12-22 07:00:00+00:00",
+                "temperature_2m": -0.9369999766349792,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 2.6208393573760986,
+                "wind_direction_10m": 164.05453491210938
+            },
+            {
+                "time": "2024-12-22 08:00:00+00:00",
+                "temperature_2m": -1.937000036239624,
+                "precipitation_probability": 10.0,
+                "wind_speed_10m": 4.896529674530029,
+                "wind_direction_10m": 233.9725341796875
+            },
+            {
+                "time": "2024-12-22 09:00:00+00:00",
+                "temperature_2m": -1.2369999885559082,
+                "precipitation_probability": 15.0,
+                "wind_speed_10m": 1.2979984283447266,
+                "wind_direction_10m": 123.69009399414062
+            },
+            {
+                "time": "2024-12-22 10:00:00+00:00",
+                "temperature_2m": 0.8630000352859497,
+                "precipitation_probability": 50.0,
+                "wind_speed_10m": 1.0800000429153442,
+                "wind_direction_10m": 360.0
+            },
+            {
+                "time": "2024-12-22 11:00:00+00:00",
+                "temperature_2m": 2.4130001068115234,
+                "precipitation_probability": 68.0,
+                "wind_speed_10m": 5.447788238525391,
+                "wind_direction_10m": 7.594560146331787
+            },
+            {
+                "time": "2024-12-22 12:00:00+00:00",
+                "temperature_2m": 3.9130001068115234,
+                "precipitation_probability": 58.0,
+                "wind_speed_10m": 9.064568519592285,
+                "wind_direction_10m": 6.842679023742676
+            },
+            {
+                "time": "2024-12-22 13:00:00+00:00",
+                "temperature_2m": 4.36299991607666,
+                "precipitation_probability": 35.0,
+                "wind_speed_10m": 7.386581897735596,
+                "wind_direction_10m": 46.97492980957031
+            },
+            {
+                "time": "2024-12-22 14:00:00+00:00",
+                "temperature_2m": 5.263000011444092,
+                "precipitation_probability": 8.0,
+                "wind_speed_10m": 5.815978050231934,
+                "wind_direction_10m": 291.8014831542969
+            },
+            {
+                "time": "2024-12-22 15:00:00+00:00",
+                "temperature_2m": 4.86299991607666,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 7.342587947845459,
+                "wind_direction_10m": 191.3098907470703
+            },
+            {
+                "time": "2024-12-22 16:00:00+00:00",
+                "temperature_2m": 3.562999963760376,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 6.4096174240112305,
+                "wind_direction_10m": 38.15727615356445
+            },
+            {
+                "time": "2024-12-22 17:00:00+00:00",
+                "temperature_2m": 2.36299991607666,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 6.1516828536987305,
+                "wind_direction_10m": 20.556127548217773
+            },
+            {
+                "time": "2024-12-22 18:00:00+00:00",
+                "temperature_2m": 1.9630000591278076,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 4.452953815460205,
+                "wind_direction_10m": 345.9637145996094
+            },
+            {
+                "time": "2024-12-22 19:00:00+00:00",
+                "temperature_2m": 3.9130001068115234,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 12.758432388305664,
+                "wind_direction_10m": 286.3896179199219
+            },
+            {
+                "time": "2024-12-22 20:00:00+00:00",
+                "temperature_2m": 5.063000202178955,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 16.904672622680664,
+                "wind_direction_10m": 296.5649719238281
+            },
+            {
+                "time": "2024-12-22 21:00:00+00:00",
+                "temperature_2m": 4.7129998207092285,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 14.332340240478516,
+                "wind_direction_10m": 295.2776794433594
+            },
+            {
+                "time": "2024-12-22 22:00:00+00:00",
+                "temperature_2m": 3.9630000591278076,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 14.168641090393066,
+                "wind_direction_10m": 297.2160339355469
+            },
+            {
+                "time": "2024-12-22 23:00:00+00:00",
+                "temperature_2m": 3.86299991607666,
+                "precipitation_probability": 0.0,
+                "wind_speed_10m": 12.924952507019043,
+                "wind_direction_10m": 282.875
+            }
+        ]
+    }
+]
