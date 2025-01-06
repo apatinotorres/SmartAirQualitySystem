@@ -36,7 +36,7 @@ The **CatalogService** is a RESTful API built with CherryPy, designed to manage 
             "ip": "192.168.1.10",
             "port": 8080,
             "endpoints": {
-                "mqtt": { "topics": ["sensor1/temperature"] },
+                "mqtt": { "topics": ["buildingA/1/101/aqi"] },
                 "rest": { "restIP": "http://192.168.1.10:8080" }
             },
             "availableResources": ["temperature"],
@@ -59,7 +59,7 @@ The **CatalogService** is a RESTful API built with CherryPy, designed to manage 
         "ip": "192.168.1.20",
         "port": 8080,
         "endpoints": {
-            "mqtt": { "topics": ["sensor2/humidity"] },
+            "mqtt": { "topics": ["buildingA/1/101/aqi"] }, // "{building}/{floor}/{room}/{measure}"
             "rest": { "restIP": "http://192.168.1.20:8080" }
         },
         "availableResources": ["humidity"],
