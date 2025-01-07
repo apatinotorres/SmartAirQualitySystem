@@ -13,7 +13,5 @@ For scalability reasons, we added a FOR loop and a locations dictionnary.
 We have 10_000 free queries per day, so during 24h we could easily run a query evry 15 min (the data is uploaded by the API evry 15min either way so we can not do more)
 
 22/12/2024 : still to do
-- weather api scalability complete, still need more definition on the exact file format and what we want to be sent
 - dockerize the adaptor
-- do the Telegram bot
-- think about how to manage in time the size of the json, if we run it evry 15min, maybe worth to delete the previous version, or try and keep it only if the new version is not working, issue in the updated forcast
+- think about how to manage in time the size of the json, if we run it evry 15min, maybe worth to delete the previous version, or try and keep it only if the new version is not working, issue in the updated forcast, same issues with the plot of daily statistics
