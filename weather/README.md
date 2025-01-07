@@ -14,7 +14,6 @@ We have 10_000 free queries per day, so during 24h we could easily run a query e
 
 22/12/2024 : still to do
 - weather api scalability complete, still need more definition on the exact file format and what we want to be sent
-- try to run and create a local host to see if the information goes well from the weather to the adaptor
-- dockerize the adaptor, test the sending via local host
+- dockerize the adaptor
 - do the Telegram bot
 - think about how to manage in time the size of the json, if we run it evry 15min, maybe worth to delete the previous version, or try and keep it only if the new version is not working, issue in the updated forcast
