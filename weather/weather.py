@@ -109,5 +109,5 @@ for building_name, building_data in locations.items():
         # Add to global json
         all_weather_data.append(weather_data)
 
-# Send the data to the adaptor
+# Send the data to the adaptors
 send_to_adaptor(all_weather_data, ADAPTOR_URL)

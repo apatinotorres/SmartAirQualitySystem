@@ -55,7 +55,7 @@ def send_to_target_system(data):
     Fonction pour envoyer les données JSON au microservice cible.
     """
     try:
-        # prepare to send JSON
+        # prepare to send JSONs
         headers = {"Content-Type": "application/json"}
         # Change  <TARGET_SYSTEM_URL> when we will have it
         response = requests.post(TARGET_SYSTEM_URL, json=data, headers=headers)
