@@ -295,11 +295,11 @@ class AirQualityBot:
 
 
 # Load bot token from JSON file
-with open("bot_token.json", "r") as file:
-    data = json.load(file)
+#with open("bot_token.json", "r") as file:
+    #data = json.load(file)
 
 # Initialize bot
-bot_instance = AirQualityBot(data["telegramToken"])
+bot_instance = AirQualityBot("7847206958:AAGvH3qIjyyLmkfG4o0HjrDpNsh6WAi0LfM")
 
 # Keep bot alive
 while True:
