@@ -91,15 +91,8 @@ The **CatalogService** is a RESTful API built with CherryPy, designed to manage 
             "number": "A101",
             "floor": 1,
             "buildingName": "Main Building",
-            "openingHours": {
-                "monday": { "start": "08:00", "end": "18:00" },
-                "tuesday": { "start": "08:00", "end": "18:00" },
-                "wednesday": { "start": "08:00", "end": "18:00" },
-                "thursday": { "start": "08:00", "end": "18:00" },
-                "friday": { "start": "08:00", "end": "16:00" },
-                "saturday": null,
-                "sunday": null
-            },
+            "openingHours": { "start": "08:00", "end": "18:00" },
+            "coordinates": { "lat": 45.07, "lon": 7.67 },
             "devices": ["1234-uuid"]
         }
     ]
@@ -118,15 +111,8 @@ The **CatalogService** is a RESTful API built with CherryPy, designed to manage 
         "number": "A102",
         "floor": 1,
         "buildingName": "A",
-        "openingHours": {
-            "monday": { "start": "08:00", "end": "18:00" },
-            "tuesday": { "start": "08:00", "end": "18:00" },
-            "wednesday": { "start": "08:00", "end": "18:00" },
-            "thursday": { "start": "08:00", "end": "18:00" },
-            "friday": { "start": "08:00", "end": "16:00" },
-            "saturday": null,
-            "sunday": null
-        }
+        "openingHours": { "start": "08:00", "end": "18:00" },
+        "coordinates": { "lat": 45.07, "lon": 7.67 }
     }
     ```
 
@@ -151,9 +137,7 @@ The **CatalogService** is a RESTful API built with CherryPy, designed to manage 
     [
         {
             "userID": "user-uuid",
-            "name": "John",
-            "surname": "Doe",
-            "email": "john.doe@example.com",
+            "username": "JohnDoe101",
             "telegramChatID": "123456",
             "rooms": ["room-uuid"]
         }
@@ -170,9 +154,7 @@ The **CatalogService** is a RESTful API built with CherryPy, designed to manage 
 -   **Request Body**:
     ```json
     {
-        "name": "Jane",
-        "surname": "Smith",
-        "email": "jane.smith@example.com",
+        "username": "JohnDoe101",
         "telegramChatID": "654321",
         "rooms": ["room-uuid"]
     }

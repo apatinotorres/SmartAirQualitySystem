@@ -112,14 +112,14 @@ class CatalogService:
 
         if uri[0] == "rooms":
             room = json.loads(cherrypy.request.body.read())
-            self.validate_fields(["number", "floor", "buildingName", "openingHours"], room)
+            self.validate_fields(["number", "floor", "buildingName", "openingHours", "coordinates"], room)
             room["roomID"] = str(uuid.uuid4())
             room["devices"] = []
             return self.add_item(self.rooms, room, "rooms.json")
 
         if uri[0] == "users":
             user = json.loads(cherrypy.request.body.read())
-            self.validate_fields(["name", "surname", "email", "telegramChatID", "rooms"], user)
+            self.validate_fields(["username", "telegramChatID", "rooms"], user)
             for roomID in user["rooms"]:
                 if not any(room["roomID"] == roomID for room in self.rooms):
                     raise cherrypy.HTTPError(404, "Referenced room not found")
@@ -152,13 +152,13 @@ class CatalogService:
 
         if len(uri) == 2 and uri[0] == "rooms":
             room = json.loads(cherrypy.request.body.read())
-            self.validate_fields(["number", "floor", "buildingName", "openingHours", "devices"], room)
+            self.validate_fields(["number", "floor", "buildingName", "openingHours", "coordinates", "devices"], room)
             room["roomID"] = uri[1]
             return self.update_item(self.rooms, room, uri[1], "roomID", "rooms.json")
 
         if len(uri) == 2 and uri[0] == "users":
             user = json.loads(cherrypy.request.body.read())
-            self.validate_fields(["name", "surname", "email", "telegramChatID", "rooms"], user)
+            self.validate_fields(["username", "telegramChatID", "rooms"], user)
             user["userID"] = uri[1]
             for roomID in user["rooms"]:
                 if not any(room["roomID"] == roomID for room in self.rooms):
